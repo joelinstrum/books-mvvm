@@ -1,0 +1,94 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background: rgb(79,79,79);
+  background: linear-gradient(0deg, rgba(79,79,79,1) 0%, rgba(52,52,52,1) 100%, rgba(80,80,80,1) 555%);
+  height: 100vh;
+  width: 100vw;
+  color: #efefef;
+}
+
+.book__list_subtitle {
+  margin: 0;
+  font-size: 13px;
+  opacity: .75;
+}
+
+.app__container {
+  max-width: 1100px;
+  margin: 0 auto;
+  height: 98vh;
+  width: 100%;
+}
+
+.table-list {
+  padding: 3px;
+  border: 1px solid #000;
+  background: #222;
+}
+
+.table-list * {
+  padding: 3px;
+}
+
+.table-list tr:nth-child(even) {
+  background: #777;
+  color: #ccc;
+}
+.table-list tr:nth-child(odd) {
+  background: #555;
+  color: #ccc;
+}
+.table-list tr:hover {
+  color: #000;
+  cursor: default;
+  color: #fff;
+}
+.table-list tr:nth-child(1) {
+  background: transparent;
+  color: #000;
+}
+
+.header {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.header__text {
+  font-size: 20px;
+  color: #fff;
+  transform: scaleY(1.5);
+  transform-origin: 0 0;
+  margin-bottom: 10px;
+}
+
+.header__subtext {
+  font-size: 12px;
+  color: #ccc;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  fill: #039dfc;
+  margin-right: 10px;
+}
+
+.menu__container {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.menu__container > div {
+  margin-right: 1rem;
+  cursor: default;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.menu__container > div:hover {
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 1.0);
+}
